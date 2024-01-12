@@ -1,0 +1,147 @@
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5%;
+  }
+  
+  .report-button{
+    background-color: #155DA4;
+    border:none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+  }
+  
+  .sort-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px; 
+    border: 2px solid #155DA4;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 14px;
+    position: relative; 
+}
+
+.sort-dropdown label {
+    margin-right: 10px;
+}
+
+.sort-dropdown select {
+    width: 100%; 
+    border: none; 
+    background: transparent; 
+    color: #155DA4;
+}
+
+.sort-dropdown select:focus {
+    outline: none;
+}
+
+.sort-dropdown select option {
+  color: #155DA4; 
+  background: #fff; 
+}
+
+  .wrapper {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #E8F0FE;
+    width: 400px;
+    margin-right: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .list:last-child {
+    margin-right: 0;
+  }
+  
+  .list-caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px -2px #000;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+  }
+  
+  .list-cell {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:#155DA4;
+    color:white;
+    transition: transform 0.3s ease;
+  }
+
+  .list-cell:active {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+  
+  
+  .list-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-card-header {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 300px;
+    margin: 5px;
+    overflow: hidden;
+  }
+
+  .line {
+    height: 3px;
+    background-color: #F87168;
+    width: 50%;
+    margin: 10px 0;
+    border-radius: 1px;
+  }
+
+  .date{
+    background-color: rgba(248, 113, 104, 0.4);
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    color:#F87168;
+  }
+
+  .edit-icon{
+    margin-left: 10px;
+  }
+
+  .list-card-header span {
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }

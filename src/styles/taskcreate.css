@@ -1,0 +1,66 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+.select {
+  background-color: #E8F0FE;
+  width: 40%;
+  padding: 10px 50px 10px 10px;
+  border-radius: 10px;
+  border: 2px solid #155DA4;
+}
+
+.task-create{
+    background-color: #E8F0FE;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid#155DA4;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10%;
+}
+
+.task-name{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.deadline, textarea {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.task-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-modal {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #155DA4;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.task-create {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  

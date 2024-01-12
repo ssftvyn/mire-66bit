@@ -1,0 +1,106 @@
+*{
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+  }
+  
+  
+  .inner-heading-report{ 
+      font-family: Raleway; 
+      font-size: 30px;
+      font-weight:normal;
+      text-align: left;
+      margin-bottom: 50px;
+      color:#000000;
+      margin-left: 5%;
+      margin-top: 5%;
+  }
+  
+  
+  .report-section{
+    background-color: #155DA4;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10%;
+  }
+  
+  .project-name-report{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .report-info   {
+    display: grid;
+    grid-template-areas: 
+      "project client ready"
+      "team deadline task"
+      "description description description";
+    grid-gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 10px 50px;
+  }
+  
+  .project-type {
+    grid-area: project;
+  }
+
+  .client{
+    grid-area: client;
+  }
+  
+  .ready-made {
+    grid-area: ready;
+  }
+
+  .team-report{
+    grid-area: team;
+  }
+
+  .deadline{
+    grid-area: deadline;
+  }
+
+  .task-report{
+    grid-area: task;
+    background-color: none;
+    border:2px solid #155DA4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .project-description-report {
+    grid-area: description;
+  }
+  
+  .ready-made{
+    width: 90%;
+    height: 100%;
+  }
+  
+  .description-text-report{
+    background-color: #E8F0FE;
+    padding: 10px 50px 10px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100px;
+  }
+  
+  .project-description-report{
+    width: 95%;
+  }

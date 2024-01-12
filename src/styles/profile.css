@@ -1,0 +1,140 @@
+.inner-heading-profile{
+  font-family: Raleway; 
+  font-size: 30px;
+  font-weight:normal;
+  text-align: left;
+  margin-bottom: 30px;
+  color:#000000;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.form-profile {
+  max-width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "email name"
+  "password phone"
+  "contact contact";
+  grid-gap: 20px;
+  width: auto;
+  padding: 20px;
+  background-color: white;
+  color: #155DA4;
+  border-radius: 5px;
+  gap: 25px;
+  justify-self: start;
+  margin-left: 3%;
+}
+
+.email-profile, .name-profile, .password-profile, .phone-profile, .contact-profile {
+  font-family: Raleway;
+  text-align: left;
+}
+
+.contact-profile{
+  text-align: center;
+}
+
+
+.email-profile{
+  grid-area: email;
+}
+
+.name-profile{
+  grid-area: name;
+}
+
+.password-profile{
+  grid-area: password;
+}
+
+.phone-profile{
+  grid-area: phone;
+}
+
+.contact-profile{
+  grid-area: contact;
+}
+
+.profile-item{
+  margin-bottom: 10px;
+  color:#000000;
+  position: relative;
+}
+
+.inp-profile {
+  padding: 5px;
+  border: 2px solid #155DA4;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100%; 
+  border-radius: 10px;
+  padding: 13px; /*верх право низ лево*/
+}
+
+textarea[name="contactDetails"] {
+  resize: vertical;
+}
+
+.exit-button-profile {
+  padding: 10px;
+  background-color: #155DA4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  justify-self: center;
+  grid-column: span 2;
+  padding: 10px 50px; 
+}
+
+.exit-button-profile:hover {
+  background-color: #0F4C81;
+}
+
+.edit-button-profile {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  padding: 5px 10px;
+  color: #155DA4;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.save-button-profile{
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  padding: 5px 10px;
+  color: #155DA4;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.save-button-profile{
+  color: #4A4A4A;
+}
+
+.edit-button-profile:hover {
+  color: #4A4A4A;
+}
+
+.fullname{
+  color:#000000;
+  font-size: large;
+  font-style: italic;
+  margin-left: 30px;
+}
+
+.site-title{
+  display: flex;
+  flex-direction: row;
+}

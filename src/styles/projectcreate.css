@@ -1,0 +1,110 @@
+.inner-heading-create{ 
+    font-family: Raleway; 
+    font-size: 30px;
+    font-weight:normal;
+    text-align: left;
+    margin-bottom: 50px;
+    color:#000000;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+.project-form{
+    background-color: #155DA4;
+    width: 1000px;
+    height: auto;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.project-name{
+    margin: 5px;
+}
+
+.container-create{
+    background-color: white;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.container-options{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.project-description{
+    padding: 20px;
+}
+
+.desc-area {
+    resize: vertical;
+    background-color:#E8F0FE;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%; 
+    border-radius: 10px;
+    padding: 13px;
+}
+
+.submit{
+    background-color: #155DA4;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+}
+
+.submit:hover{
+    background-color: #0F4C75;
+}
+
+.name-inp {
+    padding: 5px;
+    border: 2px solid #155DA4;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%; 
+    border-radius: 10px;
+    padding: 13px;
+  }
+
+.team-inp{
+    border: 2px solid #155DA4;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.create-select{
+    border: 2px solid #155DA4;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.sel-item{
+    background-color: #FFFFFF;
+    margin-left: 2px;
+    border: 2px solid #155DA4;
+    border-radius: 10px;
+}
+
+.client-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.client_id{
+    margin: 5px;
+}
